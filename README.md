@@ -27,3 +27,4 @@ docker login registry.gitlab.com/ghostrobotics/ghost_gazebo -u chanjl -p XXXXXXX
 ## Reference
 
 - Personal Access Tokens [link](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
+- Usage [link](https://docs.gitlab.com/ee/user/packages/container_registry/)
