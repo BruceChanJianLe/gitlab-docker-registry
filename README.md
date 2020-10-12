@@ -17,12 +17,14 @@ You can create as many personal access tokens as you like from your GitLab profi
 ## Usage
 
 Before you can build, pull and push images, you must authenticate with the Container Registry.  
+
 ```bash
 # Example 1
 docker login registry.example.com -u <username> -p <token>
 # Example 2
 docker login registry.gitlab.com/ghostrobotics/ghost_gazebo -u chanjl -p XXXXXXXXXXXXXXXXXXXX
 ```
+Remember that -p is not password but instead the secret token that you have generated.  
 
 ## Reference
 
